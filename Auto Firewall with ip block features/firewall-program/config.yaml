@@ -1,0 +1,9 @@
+suspicious_activity_threshold: 100
+logging_level: INFO
+ip_block_list:
+  - 192.168.1.10
+  - 10.0.0.5
+reporting:
+  enabled: true
+  report_interval: 60
+  alert_email: admin@example.com
